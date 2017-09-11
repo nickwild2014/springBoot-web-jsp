@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.springbootjsp;
 
 import java.util.Map;
 
