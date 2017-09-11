@@ -6,16 +6,16 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class springBootWebJsp extends SpringBootServletInitializer{
+public class ApplicationMain extends SpringBootServletInitializer{
 
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(springBootWebJsp.class);
+		return application.sources(ApplicationMain.class);
 	}
 	
 	//http://localhost:9080/subhash/
 	public static void main(String[] args) {
-		SpringApplication.run(springBootWebJsp.class, args);
+		SpringApplication.run(ApplicationMain.class, args);
 	}
 }
